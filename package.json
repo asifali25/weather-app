@@ -1,0 +1,17 @@
+{
+  "name": "wheather_app",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {    
+    "sass": "node-sass sass/main.scss style.css -w",
+    "test": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "parcel": "^2.6.0"
+  }
+}
